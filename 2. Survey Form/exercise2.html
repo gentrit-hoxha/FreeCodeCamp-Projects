@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercise2.css">
+    <title>Exercise 2 in the FreCodeCamp - Responsive Web Design</title>
+</head>
+<body>
+    
+     <div id="main">
+        <div id="sub-main">
+            <h1 id="title">freeCodeCamp Survey Form </h1>
+
+        <p id="description"> <em> Everything in this project is Built by Gentrit Hoxha (Unique)
+  
+      </em></p>
+  
+      <form  id="survey-form" autocomplete="on">
+    
+           <div class="survey-content">
+
+            <label for="firstName"><b>Name:</b></label><br>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your name"><br>
+            
+            <label for="mail">Mail:</label><br>
+            <input type="email" id="mail" name="mail" placeholder="Enter your email" >
+
+
+              
+              <label for="age" ><b>Age</b> <span style="font-size: 15px;">(Optional)</span> </label> <br>
+              <input type="number" name="age" id="age" placeholder="Enter your age in number "> <br>
+
+             <label for="current-role" id=""><b>Which option best describes your current role?</b></label> <br>
+             
+             <select name="" id="current-role">
+                <option disabled selected >Select the current role </option>
+                 <option value="Front End Developer"> Front End Developer</option>
+              </select>
+
+              
+              
+              <label for="current-role" id=""><b>Would you recommend freeCodeCamp to a friend?</b> </label> <br>
+
+              <div id="radio-options">
+
+                  <input type="radio" name="recomended_to_friends" value="Definitely"/>
+                  <label for="">Definitely</label><br>
+
+                  <input type="radio" name="recomended_to_friends" value="Maybe"/>
+                  <label for="">Maybe</label><br>
+
+                  <input type="radio" name="recomended_to_friends" value="Sure"/>
+                  <label for="">Sure</label><br>
+
+              </div>
+
+
+
+
+              
+              <div id="checkbox-options" style="margin-top: 2rem;">
+
+                 <label  for="current-role"><b>What would you like to see improved?</b> <span style="font-size: 15px;">(Check all that apply)</span></label> <br>
+                 
+                 <input type="checkbox" name="improve_trainings" id="front-end-projects" value="Front-End-Projects" />                 
+                 <label for="front-end-projects"> Front End Projects </label> <br>
+
+                 <input type="checkbox" name="improve_trainings" id="back-end-projects" value="Back-End-Projects" />                 
+                 <label for="back-end-projects"> Back-end Projects </label> <br>
+
+
+                 <input type="checkbox" name="improve_trainings" id="data-visualization" value="Data-Visualization" />                 
+                 <label for="data-visualization"> Data Visualization </label>  <br>
+
+                 <input type="checkbox" name="improve_trainings" id="challenges" value="Challenges" />                 
+                 <label for="challenges"> Challenges </label> <br>
+
+                 <input type="checkbox" name="improve_trainings" id="open-source-community" value="Open-Source-Community" />                 
+                 <label for="open-source-community"> Open Source Community </label>  <br>
+
+                 <input type="checkbox" name="improve_trainings" id="videos" value="Videos" />                 
+                 <label for="videos"> Videos </label>  <br>
+
+
+                 <input type="checkbox" name="improve_trainings" id="wiki" value="Wiki" />                 
+                 <label for="wiki"> Wiki </label>  <br>
+
+                 <input type="checkbox" name="improve_trainings" id="forum" value="Forum" />                 
+                 <label for="forum"> Forum </label>  <br>
+
+                 <input type="checkbox" name="improve_trainings" id="city-meetups" value="City-Meetups" />                 
+                 <label for="city-meetups"> City Meetups </label>  <br>     
+                 
+              </div>
+
+              <div class="comment-option">
+                <label for="comment" ><b>Any comments or suggestions?</b> </label> <br>
+                <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Enter any comments you want to send to us....."></textarea>
+              </div>
+              
+
+
+              
+               <input type="submit" value="SUBMIT THE FORM">
+
+           </div>
+  
+  
+           
+           
+         </form>
+         
+         
+         <p id="footer"><b><em>Copyright &copy; Gentrit Hoxha 2021 / 2022</em></b></p>
+      </div>
+     </div>
+
+
+</body>
+</html>
